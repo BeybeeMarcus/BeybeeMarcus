@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <br><h1><marquee behavior="scroll" direction="Right">Registration Form</marquee></h1>
+    <form style="height: 10px" >        
+        <table align="center" style="background-color: #d6bcac; padding-right: 10px; padding-left: 10px;
+        padding-top: 20px; padding-bottom: 10px; height: 600px" border="0">
+            <tr style="width: 10px">
+                <td>
+                    <label for="firstName">First Name:  </label>                 
+                </td>
+                <td>
+                    <input type="text"
+                        name="firstName"
+                        size="50"
+                        maxlength="50"
+                        minlength="3"
+                        id="firstName"
+                        placeholder="John"
+                                />
+                </td>
+            </tr>       
+            <br><br>
+            <tr style="width: 10px">
+                <td>
+                    <label for="middleName">Middle Name:</label>
+                </td>
+                <td>
+                    <input type="text"
+                                name="middleName"
+                                size="50"
+                                maxlength="30"
+                                minlength="3"
+                                id="middleName"
+                                placeholder="Excommunicado" 
+                            />
+                </td>
+            </tr>           
+            <tr style="width: 10px">
+                <td>
+                    <label for="lastName">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text"
+                                name="lastName"
+                                size="50"
+                                maxlength="30"
+                                minlength="3"
+                                id="lastName"
+                                placeholder="Wick" 
+                            />
+                </td>
+            </tr>
+            <br>   
+            <tr>
+                <td colspan="2">
+                    <label for="address">Address:</label>    
+                </td>
+            </tr>
+            <tr style="height: 80px;">
+                <td colspan="2">
+                    <textarea name="address" style="height: 80px; width: 533px" id="address" placeholder="Please Enter your Permanent Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Enter your Gender:</label>   
+                </td>
+            </tr>        
+            <tr>
+                <td>
+                    <label for="male">Male</label>
+        <input 
+            type="radio" 
+            name="gender" 
+            id="male"            
+        />
+        <label for="female">Female</label>
+        <input 
+            type="radio" 
+            name="gender" 
+            id="female"       
+        />
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="dropdown">Career Path:</label>
+                    <select name="dropdown" 
+                            id="dropdown"
+                    >
+                    <option selected disabled>Please Select</option>
+                    <option value="frontenddev">Front-end Developer</option>
+                    <option value="backenddev">Back-end Developer</option>
+                    <option value="fullstackdev">Full-stack Developer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            
+            <tr>
+                <td>
+                            Technical Skills:
+                        <br><br>
+                            
+                        <input 
+                                type="checkbox" 
+                                name="techskill" 
+                                id="html"
+                                value="Html"
+                                />
+                                <label for="html">HTML</label>
+                            <br>
+                                
+                            
+                                <input 
+                                    type="checkbox" 
+                                    name="techskill" 
+                                    id="css"
+                                    alue="CSS"    
+                                    />  
+                                    <label for="css">CSS</label>                          
+                            <br>                                    
+                                <input 
+                                    type="checkbox" 
+                                    name="techskill" 
+                                    id="javascript"
+                                    value="Javascript"
+                                    />
+                                <label for="javascript">Javascript</label>
+                            <br>     
+                                <input 
+                                    type="checkbox" 
+                                    name="techskill" 
+                                    id="mySQL"
+                                    value="MySQL"    
+                                    />
+                                    <label for="mySQL">MySQL</label>
+                            <br>
+                            <input 
+                                    type="checkbox" 
+                                    name="techskill" 
+                                    id="php"
+                                    value="Php"
+                                    />
+                                    <label for="php">PHP</label>
+                            <br>                            
+                                <input 
+                                    type="checkbox" 
+                                    name="techskill" 
+                                    id="laravel"
+                                    value="Laravel"
+                                    />
+                                <label for="laravel">Laravel</label>
+                            <br>
+                                <input 
+                                    type="checkbox" 
+                                    name="techskill" 
+                                    id="reactJs"
+                                    value="React JS"
+                                    />
+                                    <label for="reactJs">React JS</label>
+                </td>
+            </tr>        
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="Submit" style="width: 100%">
+                </td>
+            </tr>
+            </table>
+       
+    </form>
+    
+        
+    
+</body>
+</html>

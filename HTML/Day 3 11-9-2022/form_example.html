@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <br>
+    <form>
+        <!-- 2 Types of label / First Name: -->
+        
+        <label for="firstName">First Name:</label>
+        <!-- Recommended not to use space -->
+        <!-- Naming Covention / Camel Case (firstName) -->
+        <!-- Naming Convention / Snake Case (_underscore) -->
+        <input type="text"
+               name="firstName"
+               size="30"
+               maxlength="10"
+               minlength="1"
+               value="" 
+               placeholder="John"
+               id="firstName"
+        />
+        <br><br>
+        <label for="lastName">Last Name:</label>
+        <input type="lastName"
+                name="lastName"
+                size="30"
+                maxlength="10"
+                minlength="1"
+                value="" 
+                placeholder="Wick"
+                id="lastName"
+        />
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" 
+               name="password" 
+               id="password"
+               placeholder="*********" 
+        />
+        <br/><br/>
+        <label for="feedback">Feedback:</label>
+        <br/>
+        <textarea 
+            name="feedback" 
+            id="feedback" 
+            cols="80" 
+            rows="12"
+            placeholder="Submit your Feedback"        
+        ></textarea>
+        
+        <br/><br/>
+
+        Programming Lanuages:
+        
+        <br/><br/>
+        
+        <label for="javascript">Javascript</label>
+        <input 
+            type="checkbox" 
+            name="proglanguage" 
+            id="javascript"
+            value="Javascript"
+            checked
+        />
+        <label for="php">PHP</label>
+        <input 
+            type="checkbox" 
+            name="proglanguage" 
+            id="php"
+            value="PHP"    
+        />
+        <label for="python">Python</label>
+        <input 
+            type="checkbox" 
+            name="proglanguage" 
+            id="python"
+            value="Python"
+        />
+        <br/><br/>
+        <h5>Enter your gender:</h5>
+        <label for="male">Male</label>
+        <input 
+            type="radio" 
+            name="gender" 
+            id="male"            
+        />
+        <br/><br/>
+        <label for="female">Female</label>
+        <input 
+            type="radio" 
+            name="gender" 
+            id="female"       
+        />
+        <br/><br/>
+        <label for="dontSay">Prefer not to Say</label>
+        <input 
+            type="radio" 
+            name="gender" 
+            id="dontSay"            
+        />
+        <br/><br/>
+        <label for="dropdown">Web Technology</label>
+
+        <!-- Optional size and multiple -->
+        <!-- Default grey selected / disabled -->
+        <select name="dropdown" 
+                id="dropdown"
+                
+                >
+            <option selected disabled>Please Select</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option disabled value="js">Javascript</option>
+
+        </select>
+        <br/><br/>
+        <!-- * WildCard or anything -->
+        <input 
+            type="file"
+            name="profilePic"
+            accept="image/jpeg"      
+        >
+        <br/><br/>
+        Enter Birthday:
+        <input 
+            type="date" 
+            name="bday" 
+            >
+        <br/><br/>
+        Range from 0 to 50:
+        <input 
+            type="range"
+            name="range"
+            min="0"
+            mid="25" 
+            max="50"
+            >
+        <br/><br/>
+        Pick a Time:
+        <input 
+            type="time"
+            name="time"
+            >
+        <br/><br/>
+        Pick a month:
+        <input 
+            type="month" 
+            name="month">
+        <br/><br/>
+        Pick a week:
+        <input 
+            type="week" 
+            name="week">
+        <br/><br/>
+        Pick a color:
+        <input 
+            type="color" 
+            name="color"
+            value="#ffffff">
+        <br/><br/>
+        Enter a number:
+        <input 
+            type="number" 
+            name="number" 
+            min="10"
+            max="99"
+            >
+
+        <br/><br/>
+        <input 
+            type="button"
+            value="Button 1"
+        >
+        <br/><br/>
+        <input 
+            type="reset" 
+            name="Reset" 
+        >
+        <br/><br/>
+        <input type="submit"
+        value="Register">
+        
+        <br/><br/><br/><br/>
+    </form>
+</body>
+</html>

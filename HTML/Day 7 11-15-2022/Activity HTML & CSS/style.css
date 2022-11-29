@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(https://vironit.com/wp-content/uploads/2018/04/Code-image-1400x650.jpg);
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 820px;
+    background: #76c6ee;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-radius:  20px;
+    opacity: 95%;    
+    
+    
+
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    
+    
+    
+}
+.profile .imgBox {
+    position: relative;
+    display: flex;   
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+
+.container .left_side {
+    position: relative;
+    background: #ffffff;   
+    padding-top: 10px;    
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+
+
+
+
+
+.name {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.Web {
+    padding-left: 50px;
+    padding-top: 5px;
+    font-size: 12px;
+    width: 233px;
+    height: 30px;
+    border: 0px solid black;
+    background: linear;
+    position: relative;
+   
+}
+
+
+
+
+
+
+.skillset1 {
+    position: relative;
+    display: flex;
+    flex-direction: row ;
+}
+.html {
+    position: relative;
+    display: flex;
+    border: 0px solid black;
+    padding-inline: 15px;
+    
+        width: 35px;
+        height: 35px;
+        background: linear;
+        position: relative;
+        animation: myfirst 2s infinite;
+        animation-direction: alternate;
+      }
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+.css {
+    position: relative;
+    display: flex;
+    border: 0px solid black;   
+    padding-inline: 15px;
+
+        width: 40px;
+        height: 40px;
+        background: linear;
+        position: relative;
+        animation: myfirst 3s infinite;
+        animation-direction: alternate-reverse;
+      }
+      
+
+
+.mySql {
+    position: relative;
+    display: flex;
+    border: 0px solid black;
+    padding-inline: 15px;
+
+    width: 40px;
+        height: 40px;
+        background: linear;
+        position: relative;
+        animation: myfirst 1s infinite;
+        animation-direction: normal;
+      }
+      
+
+.python {
+    position: relative;
+    display: flex;
+    border: 0px solid black;
+    padding-inline: 15px;
+
+    padding-right: 200px;
+    width: 40px;
+        height: 40px;
+        background: linear;
+        position: relative;
+        animation: myfirst 9s infinite;
+        animation-direction: reverse;
+    }
+
+.skillset2 {
+    position: relative;
+    display: flex;
+    flex-direction: row ;
+}
+.javaScript {
+    position: relative;
+    display: flex;
+    border: 0px solid black;
+    padding-inline: 15px;
+
+    animation: myfirst 5s infinite;
+    animation-direction:normal ;
+  }
+  
+  @keyframes myfirst {
+    0%   {background: linear red; left: 0px; top: 0px;}
+    25%  {background: linear yellow; left: 200px; top: 0px;}
+    50%  {background: linear blue; left: 200px; top: 200px;}
+    75%  {background: linear green; left: 0px; top: 200px;}
+    100% {background: linear red; left: 0px; top: 0px;}
+
+}
+.laravel {
+    position: relative;
+    display: flex;
+    border: 0px solid black;
+    padding-inline: 15px;
+
+    animation: mymove 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {left: 300px;}
+  to {left: 0px;}
+
+
+}
+.photoShop {
+    position: relative;
+    display: flex;
+    border: 0px solid black;
+    padding-inline: 15px;
+
+    padding-right: 200px;
+    animation: myfirst 5s infinite;
+        animation-direction: reverse;
+     
+  
+
+}
+
+
+
+
+
+
+
+
+.container .right_side {
+    position: relative;
+    background: #eefafd;   
+    padding: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 40PX;
+    opacity: 70%;
+}
+
+
+ 
+#animated_div {
+    width:170px;
+    height:45px;
+    background: #76c6ee;
+    color: #ffffff;
+    position: relative;
+    font-weight:bold;
+    font-size:20px;
+    padding:12px;
+    animation:animated_div 5s infinite;
+    -moz-animation:animated_div 5s infinite;
+    -webkit-animation:animated_div 5s infinite;
+    -o-animation:animated_div 5s infinite;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    padding-right: 13px;
+    }
+    
+    @keyframes animated_div
+    {
+    0% {transform: rotate(0deg);left:0px;}
+    25% {transform: rotate(20deg);left:0px;}
+    50% {transform: rotate(0deg);left:500px;}
+    55% {transform: rotate(0deg);left:500px;}
+    70% {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+    100% {transform: rotate(-360deg);left:0px;}
+    }
+    
+    @-webkit-keyframes animated_div
+    {
+    0% {-webkit-transform: rotate(0deg);left:0px;}
+    25% {-webkit-transform: rotate(20deg);left:0px;}
+    50% {-webkit-transform: rotate(0deg);left:500px;}
+    55% {-webkit-transform: rotate(0deg);left:500px;}
+    70% {-webkit-transform: rotate(0deg);left:500px;background:#1ec7e6;}
+    100% {-webkit-transform: rotate(-360deg);left:0px;}
+    }
+    
+    @-moz-keyframes animated_div
+    {
+    0%  {-moz-transform: rotate(0deg);left:0px;}
+    25% {-moz-transform: rotate(20deg);left:0px;}
+    50%  {-moz-transform: rotate(0deg);left:500px;}
+    55%  {-moz-transform: rotate(0deg);left:500px;}
+    70%  {-moz-transform: rotate(0deg);left:500px;background:#1ec7e6;}
+    100% {-moz-transform: rotate(-360deg);left:0px;}
+    }
+    
+    @-o-keyframes animated_div
+    {
+    0% {transform: rotate(0deg);left:0px;}
+    25% {transform: rotate(20deg);left:0px;}
+    50%  {transform: rotate(0deg);left:500px;}
+    55%  {transform: rotate(0deg);left:500px;}
+    70%  {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+    100% {transform: rotate(-360deg);left:0px;}
+    }

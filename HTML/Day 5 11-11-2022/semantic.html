@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        header {
+           background-color: antiquewhite;
+           height: 70px; 
+           border: 2px solid #580768;
+           
+        }
+        nav {
+            background-color: rgb(154, 204, 250);
+            height: 50px; 
+            border: 2px solid #580768;
+            
+            
+        }
+        article {
+            background-color: #c2dd97; 
+            width: 70%; 
+            float: left; 
+            height: 800px;
+            border: 2px solid #580768;
+        }
+        aside {
+            background-color: darkgoldenrod; 
+            width: 30%; 
+            float: left;
+            height: 800px;
+            border: 2px solid #580768;
+        }
+        footer {
+            background-color: #83d7f8;
+            height: 80px;
+            clear: both;
+            border: 2px solid #580768
+            
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+        <header>
+            <h1>Semantic HTML</h1>
+        </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+        </nav>
+
+        <main>
+            <article>
+                <h2>Title of my Blog</h2>
+                <section>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatem inventore, rem adipisci atque laboriosam temporibus esse? Maiores, impedit error. Velit, magnam illum expedita atque cumque fugiat soluta veritatis consectetur.
+                    </p>
+                </section>
+                <section>
+                    <figure>
+                        <img src="./Animals.jpg" alt="Picture of a Cat">
+                        <figcaption>This is a Animal</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <!--<video src="./video_earth.mp4">Planet</video>-->
+                    <video controls autoplay muted loop>
+                        <source src="./video_earth.mp4" type="video/mp4">
+                        Your Browser does not support this video.                        
+                    </video>                 
+                    
+
+                </section>
+                <section>
+                    <audio controls loop>
+                        <source src="./Respect.mp3" type="audio/mp3">
+                    </audio>
+
+                </section>
+
+            </article>
+            <aside>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi iste tenetur voluptates possimus suscipit vitae optio, iure quam veritatis. Nemo ea autem corporis numquam expedita tempora harum quia ab exercitationem?
+                </p>
+            </aside>
+        </main>
+
+        <footer>
+            <p>
+                Email me at vfranco123456@gmail.com
+            </p>
+            <p>
+                Copyright 2022
+            </p>
+        </footer>
+
+</body>
+</html>
