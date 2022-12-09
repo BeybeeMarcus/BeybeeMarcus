@@ -133,22 +133,82 @@ if (example) {
 }
 
 // Loops
-let num = 0;
-// while loop
-while (num < 5) // condition
-{
-    //console block
-    console.log(num);
-    num++;
-    // num = 4 + 1;
+// let num = 0;
+// // while loop
+// while (num < 5) // condition
+// {
+// //     //console block
+// //     console.log(num);
+//     num++;
+//     // num = 4 + 1;
+// }
+
+// num = 5;
+// // while loop
+// while (num > 0) // condition
+// {
+//     //console block
+//     console.log(num--);
+    
+// }
+
+// //do... while loop
+// num = 0;
+// do {
+// console.log(num++); 
+// } while (num < 5);
+
+
+
+
+// for loop
+// for (initialization; condition; post-loop operation)
+// check condition
+//if true execute code
+// post-loop operation
+for (let i = 0; i < 5; i++) {
+    if(i === 3) {
+        console.log("The number 3");
+      
+    }
 }
 
-num = 5;
-// while loop
-while (num > 0) // condition
-{
-    //console block
-    console.log(num--);
-    
+// prompt user input
+// const input = Number ( prompt("Enter a number: "));
+// console numSample = Number("50");
+
+// console.log(input + 25);
+
+// Function Declaration
+function add(num1, num2){
+    return num1 + num2;
 }
+// () = invoker
+const sum1 = add(10,5); // 15
+console.log(sum1);
+// const sum2 = add(50, 99);
+
+//Functio Expression
+const substract = function(num1, num2) {
+    return num1 - num2;
+}
+const diff1 = substract(80, 50);
+console.log(diff1);
+// const diff2 = substract;
+// console.log(diff2);
+
+// // Arrow Function
+// const multiply = (num1, num2) => {
+//     //  other code here
+//     return num1 * num2;
+// }
+
+const multiply = (mum1, num2) => num1 * num2;
+const product1 = multiply(5,8);
+console.log(product1);
+
+// parameterless function
+const greetMe = () => alert ("Hello Someone!");
+greetMe(); 
+
 
